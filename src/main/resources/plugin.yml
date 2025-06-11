@@ -1,0 +1,15 @@
+name: LobbyUtill
+version: '1.0-SNAPSHOT'
+main: ru.dancebunny98.lobbyUtill.LobbyUtill
+api-version: '1.21'
+authors: [ Dancebunny98 ]
+description: LobbyUtill
+commands:
+  lobbyutill:
+    description: "Reloads the LobbyUtill plugin"
+    aliases: [lu, lreload]
+    permission: lobbyutill.reload
+permissions:
+  lobbyutill.reload:
+    description: "Allows reloading the LobbyUtill plugin"
+    default: op

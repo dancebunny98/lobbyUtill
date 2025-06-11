@@ -1,0 +1,8 @@
+bow:
+  name: "&aTeleport Bow"
+  lore:
+    - "&7Use this bow to teleport."
+arrow:
+  name: "&fArrow"
+cooldown:
+  message: "&cYou are on cooldown for %cooldown% seconds." 

@@ -1,0 +1,17 @@
+# Configuration for the Teleport Bow
+
+settings:
+  bow:
+    unbreakable: true
+    inventory-slot: 0 # 0-8 for hotbar slots
+    prevent-drop: true
+    prevent-movement: true
+  arrow:
+    inventory-slot: 35 # 0-8 for hotbar, 9-35 for main inventory, 40 for off-hand
+    prevent-drop: true
+    prevent-movement: true
+    return-on-teleport: true # Give arrow back after teleport
+  teleport:
+    enabled: true
+    preserve-look-direction: true
+    cooldown: 5 # Cooldown in seconds
